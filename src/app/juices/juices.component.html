@@ -1,0 +1,56 @@
+<p>
+  Cafe Ital Juices
+  <div class="colors">
+      <div class="container ">
+        <p>Pear, Ginger, Mint, Pineapples 16 oz</p>
+        <img class="juices" src="../../assets/Happy Kreation Juice.jpg">
+      </div>
+      <form>
+          <input type="button" value="checkout" onclick="window.location.href='http://localhost:4200/checkout'" />
+        </form>
+    </div>
+    
+    
+    <div class="colors">
+      <div class="container">
+        <p> Apple, Cucumber, Romaine, Kale, Pear 16 oz </p>
+        <img class="juices" src="../../assets/Green juice.jpg">
+      </div>
+      <form>
+          <input type="button" value="checkout" onclick="window.location.href='http://localhost:4200/checkout'" />
+        </form>
+    </div>
+    
+    <div class="colors">
+      <div class="container">
+        <p> Lemon, Alkaline Water, Agave, Cayenne, 16 oz</p>
+        <img class="juices" src="../../assets/master cleanse juice.jpg">
+      </div>
+      <form>
+          <input type="button" value="checkout" onclick="window.location.href='http://localhost:4200/checkout'" />
+        </form>
+    </div>
+    <div class="colors">
+      <div class="container">
+        <p> Apple, Strawberry, Pear 16 oz</p>
+        <img class="juices" src="../../assets/Strawberry Juice.jpg">
+      </div>
+      <form>
+          <input type="button" value="checkout" onclick="window.location.href='http://localhost:4200/checkout'" />
+        </form>
+    </div>
+    <ng-template #content let-c="close" let-d="dismiss">
+      <div class="modal-header">
+        <h4 class="modal-title">{{selectedItem.name}}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>one fine body&hellip;</p>
+        <p>{{ selectedItem.price }}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+      </div>
+    </ng-template>
