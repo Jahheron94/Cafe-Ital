@@ -2,4 +2,34 @@ h5{
     margin-right: 100px;
     text-align: center;
     margin-left: 100px;
+    color: green
+    
+}
+.carouselShadows{
+    text-shadow: 2px 0px 2px black;;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+.carouselImages{
+    display: block; 
+    margin: auto; 
+}
+.middle{
+    text-align: center
+}
+#space{
+    margin-bottom: 5%;
+}
+.container{
+    display: flex;
+}
+.side-1{
+    flex:1;
+}
+.side-2{
+    flex:3;
 }

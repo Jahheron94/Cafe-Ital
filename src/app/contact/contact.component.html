@@ -1,20 +1,20 @@
-<form #contactForm="ngForm" (ngSubmit)="submit()">
+<form #contactForm="ngForm" (ngSubmit)="submit()" class="form">
     <div class="form-row">
       <div class="form-group col-sm-4">
-        <label for="inputName1">Name</label>
+        <label for="inputName1" class="labelColors" >Name</label>
         <input type="name" name="name" class="form-control" id="inputName1" placeholder="Name" [(ngModel)]="contact.name">
       </div>
       <div class="form-group col-sm-4">
-        <label for="inputEmail4">Email</label>
+        <label for="inputEmail4" class="labelColors" >Email</label>
         <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email" [(ngModel)]="contact.email" >
       </div>
       <div class="form-group col-sm-4">
-        <label for="inputPhoneNumber1">Phone Number</label>
-        <input type="text" name="phoneNumber" class="form-control" id="inputPhoneNumber1" placeholder="(123)-456-6789" [(ngModel)]="contact.phoneNumber">
+        <label for="inputPhoneNumber1" class="labelColors" >Phone Number</label>
+        <input type="text" name="phoneNumber" class="form-control" id="inputPhoneNumber1" placeholder="Phone" [(ngModel)]="contact.phoneNumber">
       </div>
     </div>
     <div class="form-group">
-      <label for="exampleFormControlTextarea1"  >Thoughts</label>
+      <label for="exampleFormControlTextarea1" class="labelColors" >Thoughts</label>
       <textarea class="form-control" id="imputThoughts1" rows="3"  name="thoughts" [(ngModel)]="contact.thoughts"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>

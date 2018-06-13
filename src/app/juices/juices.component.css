@@ -1,0 +1,16 @@
+p{
+    color: yellowgreen; 
+}
+.middle{
+    text-align: center
+}
+#space{
+    margin-bottom: 2%; 
+}
+.containers{
+    display: flex;
+    margin-bottom: 2%;
+}
+.side-1, .side-2, .side-3{
+    flex: 1;
+}

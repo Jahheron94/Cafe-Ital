@@ -23,16 +23,8 @@ h3 {
     width: 100px; 
 
 }
-.container{
-    display: inline-block;
-    width: 100%
-
-}
 .colors {
-    color: yellow
-}
-.colors{
-    color: yellow
+    color: red
 }
 
 .farmersvegan {
@@ -46,4 +38,27 @@ h4{
 }
 p{
     padding: 20px 50px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+div {
+    opacity: 0.9;
+} 
+
+.fresh{
+    text-align: center;
+    color:black;
+}
+#itallogo img{
+   size: 300px;
+   margin:auto;
+}
+.middle{
+    text-align: center
+}
+.size{
+    font-size: 24px;
+    color: white; 
 }
